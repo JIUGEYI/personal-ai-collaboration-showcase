@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="个人 AI 协作平台 Vibe Coding 作业展示：任务分级、多 AI 协作、三省六部审查与真实业务流程。">
+  <title>个人 AI 协作平台｜Vibe Coding 作业展示</title>
+  <link rel="stylesheet" href="./showcase.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回展示板顶部">
+      <span class="brand-mark">AI</span>
+      <span>个人 AI 协作平台</span>
+    </a>
+    <nav aria-label="展示板导航">
+      <a href="#problem">为什么做</a>
+      <a href="#flow">怎么运转</a>
+      <a href="#demo">真实演示</a>
+      <a href="#ledger">效率账本</a>
+    </nav>
+    <span class="readonly-pill">只读作业展示</span>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">VIBE CODING · 作品分享</p>
+        <h1>不是把三个 AI 放进一个页面，<br><span>而是决定什么时候谁该出场。</span></h1>
+        <p class="hero-summary">一个“聊天优先、达到条件才升级”的个人 AI 任务控制面。它把简单问题留在低成本路径，把高风险、长周期或有争议的任务送入可审查、可续接的协作流程。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#demo">看一次任务怎么跑</a>
+          <a class="button button-ghost" href="#flow">看三省六部流程</a>
+        </div>
+        <ul class="signal-list" aria-label="项目原则">
+          <li>一个主责 AI</li>
+          <li>按风险追加第二意见</li>
+          <li>证据不足不宣布完成</li>
+        </ul>
+      </div>
+      <div class="hero-board" aria-label="任务路由概览">
+        <div class="board-topline">
+          <span>任务路由器</span>
+          <span class="live-dot">公开互动演示</span>
+        </div>
+        <div class="route-input">用户提出任务</div>
+        <div class="route-axis">
+          <span>可验证性</span><span>后果</span><span>推理深度</span>
+          <span>依赖范围</span><span>持续时间</span><span>异议价值</span>
+        </div>
+        <div class="route-split">
+          <div><b>A–B</b><small>直接处理 / 执行后校验</small></div>
+          <div><b>C–D</b><small>单专家 / 独立复核</small></div>
+          <div><b>E–F</b><small>专家会审 / 长期任务</small></div>
+        </div>
+        <div class="route-proof">完成 = 结果 + 验证证据 + 人工审批门</div>
+      </div>
+    </section>
+
+    <section class="section" id="problem">
+      <div class="section-heading">
+        <p class="eyebrow">01 · 想解决什么</p>
+        <h2>多一个 AI，不一定多一份价值</h2>
+        <p>最初的想法是“让多个有功能的 AI 在同一空间协作”。真正做起来后，问题不在模型数量，而在任务筛选、职责边界和完成证据。</p>
+      </div>
+      <div class="problem-grid">
+        <article class="problem-card">
+          <span class="card-index">01</span>
+          <h3>简单任务被复杂化</h3>
+          <p>每件事都开会、审查、写长报告，会把格式转换和短问答变成昂贵流程。</p>
+          <strong>解法：低风险任务默认单模型或本地规则。</strong>
+        </article>
+        <article class="problem-card">
+          <span class="card-index">02</span>
+          <h3>复杂任务容易失控</h3>
+          <p>窗口中断、上下文丢失、多人意见混在一起，最后很难知道谁负责、做到哪一步。</p>
+          <strong>解法：主责、检查点、异常状态和长期续接。</strong>
+        </article>
+        <article class="problem-card">
+          <span class="card-index">03</span>
+          <h3>“说完成”不等于完成</h3>
+          <p>模型可能给出漂亮说明，但没有测试、没有实际文件、甚至调用的模型身份都不一致。</p>
+          <strong>解法：能力审计、执行证据和人工审批门。</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process-section" id="flow">
+      <div class="section-heading inverse">
+        <p class="eyebrow">02 · 业务怎样运转</p>
+        <h2>借鉴“三省六部”，但不照搬一套古代审批表</h2>
+        <p>我们借用的是“拟议、封驳、执行分离”的治理思想。实际运行采用稀疏流程：低风险任务不会强行经过所有角色，只有风险和异议价值升高时才追加审查。</p>
+      </div>
+
+      <div class="three-provinces" aria-label="三省流转示意图">
+        <article class="province proposal">
+          <div class="province-label">中书省 · 拟议</div>
+          <h3>把一句需求变成可执行任务</h3>
+          <ul><li>判断任务难度与风险</li><li>选 A–F 路径</li><li>明确主责、交付物与停止线</li></ul>
+          <span class="role-tag">平台路由器 + 主责 AI</span>
+        </article>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <article class="province review">
+          <div class="province-label">门下省 · 封驳</div>
+          <h3>独立检查能不能放行</h3>
+          <ul><li>找反例和隐含假设</li><li>检查来源、范围与风险</li><li>证据不足就退回，不替主责重做</li></ul>
+          <span class="role-tag">Claude / 校验器 / 人工</span>
+        </article>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <article class="province execution">
+          <div class="province-label">尚书省 · 执行</div>
+          <h3>分派能力并留下证据</h3>
+          <ul><li>按能力派发执行</li><li>保存检查点和异常</li><li>测试通过后提交人工确认</li></ul>
+          <span class="role-tag">Codex + 功能执行器</span>
+        </article>
+        <div class="reject-line" aria-label="门下省可封驳退回中书省">证据不足或范围偏离 → 封驳退回重新拟议</div>
+      </div>
+
+      <div class="six-departments">
+        <div class="department-title">
+          <span>六部不是六个模型</span>
+          <p>它们是六种必须被看见的职责。一个模型可以承担多项职责，但验收与执行不能由同一份自我陈述替代。</p>
+        </div>
+        <div class="department-grid">
+          <article><b>吏部</b><span>角色与能力</span><small>谁能做、谁主责、是否在线</small></article>
+          <article><b>户部</b><span>额度与成本</span><small>Token、时间、失败重试的真实成本</small></article>
+          <article><b>礼部</b><span>表达与契约</span><small>输出格式、作者契约、用户沟通</small></article>
+          <article><b>兵部</b><span>任务执行</span><small>命令、桌面动作与长任务运行</small></article>
+          <article><b>刑部</b><span>安全与审查</span><small>审批门、异常、封驳与责任边界</small></article>
+          <article><b>工部</b><span>工程与验证</span><small>代码、文件、测试、构建和部署</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="section-heading">
+        <p class="eyebrow">03 · 真实业务演示</p>
+        <h2>把“净化知识库”跑成一条可检查的任务链</h2>
+        <p>点击步骤，查看同一任务在不同节点到底交给谁、产生什么结果、凭什么进入下一步。这里播放的是静态演示，不会调用模型或修改文件。</p>
+      </div>
+
+      <div class="demo-shell">
+        <ol class="demo-steps" aria-label="任务演示步骤">
+          <li><button type="button" class="demo-step is-active" data-step="0"><span>1</span>任务进入</button></li>
+          <li><button type="button" class="demo-step" data-step="1"><span>2</span>本地盘点</button></li>
+          <li><button type="button" class="demo-step" data-step="2"><span>3</span>主责执行</button></li>
+          <li><button type="button" class="demo-step" data-step="3"><span>4</span>独立复核</button></li>
+          <li><button type="button" class="demo-step" data-step="4"><span>5</span>证据放行</button></li>
+        </ol>
+        <div class="demo-panel" aria-live="polite">
+          <div class="demo-meta">
+            <span id="demo-owner">主责：平台路由器</span>
+            <span id="demo-cost">模型调用：0</span>
+          </div>
+          <p class="demo-kicker" id="demo-kicker">收到的原始任务</p>
+          <h3 id="demo-title">清理无来源笔记，但不能误删有价值内容</h3>
+          <p id="demo-description">系统先判断：它包含批量文件影响、语义判断和不可逆风险，因此不能被当成“简单删除”。</p>
+          <div class="demo-evidence">
+            <span>本步交付</span>
+            <strong id="demo-evidence">任务指纹 + 风险等级 + 人工审批门</strong>
+          </div>
+          <div class="demo-controls">
+            <span id="demo-counter">步骤 1 / 5</span>
+            <button id="demo-next" type="button">下一步 <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-card">
+          <div class="case-label">案例 A · 知识库治理</div>
+          <h3>从“直接删掉”改成“扫描—候选—审批—验证”</h3>
+          <p>负面描述、否定语境和无来源笔记曾经容易被误判。后来把失败固化为上下文判断、候选清单和删除前人工确认。</p>
+          <ul><li>先用本地程序扫描，不消耗模型 Token</li><li>语义不确定项进入复核，不静默删除</li><li>写后检查未解析链接、文件数与正文漂移</li></ul>
+        </article>
+        <article class="case-card accent">
+          <div class="case-label">案例 B · IMA 课程拆解</div>
+          <h3>把连续课程拆成可调度的解决方案模块</h3>
+          <p>第二轮试点从 7 份 PPT 中形成 6 个证据单元、3 个问题驱动模块和 9 条对照映射，同时明确“没有音频，不能声称已核对口述”。</p>
+          <ul><li>课程事实与个人推断分层</li><li>知识点标注用途、触发场景和操作步骤</li><li>未来与原子笔记通过模块和问题特征呼应</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section lessons-section">
+      <div class="section-heading">
+        <p class="eyebrow">04 · 困难怎样变成机制</p>
+        <h2>不是把失败藏起来，而是让它改变下一次流程</h2>
+      </div>
+      <div class="lesson-list">
+        <article><span>误判</span><h3>否定语境被当成删除理由</h3><p>增加上下文否定识别和人工审批门，批量删除从自动动作改为候选决策。</p></article>
+        <article><span>错配</span><h3>Windows 界面任务被派给命令执行器</h3><p>把“能写命令”和“能控制桌面”拆成不同能力，并增加握手与健康探针。</p></article>
+        <article><span>身份</span><h3>页面写 Claude，实际回包却不是 Claude</h3><p>不再用按钮名称当模型证据，记录真实 provider、model 和调用链。</p></article>
+        <article><span>浪费</span><h3>短问答也触发长思考与多模型讨论</h3><p>确定性任务优先本地规则；智谱只接可验证的小任务，失败成本也记入总账。</p></article>
+      </div>
+    </section>
+
+    <section class="section ledger-section" id="ledger">
+      <div class="section-heading inverse">
+        <p class="eyebrow">05 · 效率诚实账本</p>
+        <h2>哪些已经证明，哪些仍只是一个好假设</h2>
+      </div>
+      <div class="ledger-grid">
+        <article class="ledger-card proven">
+          <div class="ledger-status">已经证明</div>
+          <ul>
+            <li><strong>0 Token</strong><span>本地行去重与确定性扫描可以完全不调用模型。</span></li>
+            <li><strong>190 Token / 1214 ms</strong><span>一次智谱抽取式问答实测通过字符串校验。</span></li>
+            <li><strong>176 / 176</strong><span>当前平台完整自动化测试基线通过。</span></li>
+            <li><strong>按需协作</strong><span>简单任务不会自动触发第二模型，会审只在高风险节点开启。</span></li>
+          </ul>
+        </article>
+        <article class="ledger-card unknown">
+          <div class="ledger-status">还没有证明</div>
+          <ul>
+            <li><strong>净 Token 是否下降</strong><span>失败重试、复核和平台提示词也要计入，不能只看一次便宜调用。</span></li>
+            <li><strong>总工时是否下降</strong><span>长期任务可能少返工，但平台操作和文档维护本身也有成本。</span></li>
+            <li><strong>路由能否稳定泛化</strong><span>目前真实样本不足，不能从 3 个小样本推出长期结论。</span></li>
+            <li><strong>质量是否持续更高</strong><span>需要跨项目比较返工率、静默错误率和人工介入次数。</span></li>
+          </ul>
+        </article>
+      </div>
+      <p class="ledger-rule">因此平台下一步不是继续堆模型，而是建立每类任务的“直接处理基线”，对比真实时间、总 Token、升级率、返工率和静默错误率。</p>
+    </section>
+
+    <section class="section roadmap-section">
+      <div class="section-heading">
+        <p class="eyebrow">06 · 现在的位置</p>
+        <h2>它已经是一套可运行的实验系统，还不是被证明最省的产品</h2>
+      </div>
+      <div class="roadmap-grid">
+        <article>
+          <h3>保留的优势</h3>
+          <ul><li>任务分级与按需升级</li><li>主责和复核职责分离</li><li>长期任务可续接、可审计</li><li>作者契约和来源追溯</li><li>失败能沉淀为规则</li></ul>
+        </article>
+        <article>
+          <h3>必须削减的负担</h3>
+          <ul><li>简单任务的表单和报告过多</li><li>文档增长快于可用界面</li><li>桌面执行能力仍不稳定</li><li>模型身份与通道状态不够统一</li><li>净节省尚缺长期样本</li></ul>
+        </article>
+        <article class="next">
+          <h3>下一轮优化</h3>
+          <ol><li>让聊天成为默认入口，平台只承接升级任务。</li><li>为智谱小任务建立确定性校验器和停止线。</li><li>把成本、时间、返工和静默错误放进同一账本。</li><li>稳定桌面执行器，但不绕过人工审批。</li><li>用知识库与课程拆解项目继续验证路由。</li></ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p class="eyebrow">THE TAKEAWAY</p>
+      <blockquote>这次 Vibe Coding 最重要的成果，不是把三个模型放进一个页面，而是逐渐做出了一套规则：什么时候一个 AI 就够了，什么时候必须找第二意见，什么时候机器应该停下来，把决定交还给人。</blockquote>
+      <a class="button button-primary" href="#top">回到开头</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>个人 AI 协作平台 · 课程作业展示版 · 2026</p>
+    <p>本页为脱敏静态展示，不读取任务、知识库、模型密钥或桌面执行器。</p>
+  </footer>
+
+  <script src="./showcase.js" defer></script>
+</body>
+</html>
+
