@@ -1,5 +1,5 @@
 {
-  "nature": "Synthetic classroom scenario, not observed production",
+  "nature": "Solution analysis and application design using real-work scenario materials; costs and benefits are scenario estimates",
   "good_defect_rate": 0.01,
   "bad_defect_rate": 0.03,
   "batches": [
