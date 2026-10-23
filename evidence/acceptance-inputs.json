@@ -1,0 +1,85 @@
+{
+  "nature": "Synthetic classroom scenario, not observed production",
+  "good_defect_rate": 0.01,
+  "bad_defect_rate": 0.03,
+  "batches": [
+    {
+      "batch": "A",
+      "N": 3180,
+      "minutes_per_record": 3.7,
+      "baseline": [
+        98,
+        1
+      ],
+      "optimized": [
+        299,
+        5
+      ]
+    },
+    {
+      "batch": "B",
+      "N": 2950,
+      "minutes_per_record": 4.2,
+      "baseline": [
+        98,
+        1
+      ],
+      "optimized": [
+        299,
+        5
+      ]
+    },
+    {
+      "batch": "C",
+      "N": 2730,
+      "minutes_per_record": 5,
+      "baseline": [
+        98,
+        1
+      ],
+      "optimized": [
+        299,
+        5
+      ]
+    },
+    {
+      "batch": "D",
+      "N": 2500,
+      "minutes_per_record": 3.7,
+      "baseline": [
+        98,
+        1
+      ],
+      "optimized": [
+        299,
+        5
+      ]
+    },
+    {
+      "batch": "E",
+      "N": 2270,
+      "minutes_per_record": 4.2,
+      "baseline": [
+        97,
+        1
+      ],
+      "optimized": [
+        254,
+        4
+      ]
+    },
+    {
+      "batch": "内部",
+      "N": 1370,
+      "minutes_per_record": 3.8,
+      "baseline": [
+        95,
+        1
+      ],
+      "optimized": [
+        247,
+        4
+      ]
+    }
+  ]
+}

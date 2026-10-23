@@ -1,0 +1,132 @@
+{
+  "nature": "Synthetic classroom scenario, not observed production",
+  "batches": [
+    {
+      "batch": "A",
+      "good_defects": 31,
+      "bad_defects": 96,
+      "baseline_good_pa": 0.7526120774474484,
+      "baseline_bad_pa": 0.19621228098170615,
+      "optimized_good_pa": 0.935215027299408,
+      "optimized_bad_pa": 0.09896120331161873,
+      "minimum_feasible": [
+        [
+          299,
+          5
+        ]
+      ]
+    },
+    {
+      "batch": "B",
+      "good_defects": 29,
+      "bad_defects": 89,
+      "baseline_good_pa": 0.7496216854042751,
+      "baseline_bad_pa": 0.1961355921649907,
+      "optimized_good_pa": 0.933761240744347,
+      "optimized_bad_pa": 0.09837370678717244,
+      "minimum_feasible": [
+        [
+          299,
+          5
+        ]
+      ]
+    },
+    {
+      "batch": "C",
+      "good_defects": 27,
+      "bad_defects": 82,
+      "baseline_good_pa": 0.7474546583015026,
+      "baseline_bad_pa": 0.19773732467320074,
+      "optimized_good_pa": 0.9330118398729887,
+      "optimized_bad_pa": 0.09962860431081903,
+      "minimum_feasible": [
+        [
+          299,
+          5
+        ]
+      ]
+    },
+    {
+      "batch": "D",
+      "good_defects": 25,
+      "bad_defects": 75,
+      "baseline_good_pa": 0.7434293758220661,
+      "baseline_bad_pa": 0.19778856729432945,
+      "optimized_good_pa": 0.9310367166793536,
+      "optimized_bad_pa": 0.09898079639043789,
+      "minimum_feasible": [
+        [
+          299,
+          5
+        ]
+      ]
+    },
+    {
+      "batch": "E",
+      "good_defects": 22,
+      "bad_defects": 69,
+      "baseline_good_pa": 0.7585241201867732,
+      "baseline_bad_pa": 0.19588968673482995,
+      "optimized_good_pa": 0.9094740401977304,
+      "optimized_bad_pa": 0.0991958390927336,
+      "minimum_feasible": [
+        [
+          254,
+          4
+        ]
+      ]
+    },
+    {
+      "batch": "内部",
+      "good_defects": 13,
+      "bad_defects": 42,
+      "baseline_good_pa": 0.7737489220669475,
+      "baseline_bad_pa": 0.19727813907588618,
+      "optimized_good_pa": 0.9324786217932883,
+      "optimized_bad_pa": 0.09949736931443096,
+      "minimum_feasible": [
+        [
+          247,
+          4
+        ]
+      ]
+    }
+  ],
+  "baseline_hours": 39.92,
+  "optimized_hours": 116.14666666666666,
+  "baseline_expected_returns": 1.4746091607709872,
+  "optimized_expected_returns": 0.425022513412884,
+  "break_even_return_hours": 72.62541578490496,
+  "scenarios": [
+    {
+      "return_hours": 0,
+      "baseline_total": 39.92,
+      "optimized_total": 116.14666666666666,
+      "saving_fraction": -1.9094856379425513
+    },
+    {
+      "return_hours": 50,
+      "baseline_total": 113.65045803854936,
+      "optimized_total": 137.39779233731088,
+      "saving_fraction": -0.2089506255285536
+    },
+    {
+      "return_hours": 75,
+      "baseline_total": 150.51568705782404,
+      "optimized_total": 148.02335517263296,
+      "saving_fraction": 0.01655861879854148
+    },
+    {
+      "return_hours": 100,
+      "baseline_total": 187.38091607709873,
+      "optimized_total": 158.64891800795505,
+      "saving_fraction": 0.15333470809440264
+    },
+    {
+      "return_hours": 150,
+      "baseline_total": 261.11137411564806,
+      "optimized_total": 179.90004367859927,
+      "saving_fraction": 0.3110218032902684
+    }
+  ]
+}
